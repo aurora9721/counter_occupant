@@ -111,13 +111,15 @@ body {
   height: auto;
   width: 100%;
   z-index: 10;
+  left: 20vw;
+  top: 20vh;
 }
 
 .title {
   height: auto;
   width: 100%;
-  left: 20vw;
-  top: 20vh;
+  /* left: 20vw;
+  top: 20vh; */
   font-family: "IBM Plex Mono";
   font-style: normal;
   font-weight: normal;
