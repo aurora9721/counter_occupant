@@ -3,6 +3,7 @@ html,
 head {
 
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 
@@ -69,17 +70,6 @@ head {
     font-style: normal;
   }
 
-
-div.column1{
-   overflow-y: scroll;
-}
-div.column2{
-   overflow-y: scroll;
-}
-div.column3{
-   overflow-y: scroll;
-}
-
 body {
 
     /* background-color: white; */
@@ -92,8 +82,6 @@ body {
     /* overflow-x: hidden; */
 }
 
-
-
 ::-webkit-scrollbar {
     display: none;
 }
@@ -102,37 +90,6 @@ body {
     margin: 0;
     box-sizing: border-box;
 
-}
-
-em {
-  font-family: "Sporting Grotesque";
-  /* font-weight: bold; */
-  font-style: normal;
-  font-size: 20px;
-  line-height: 18px;
-  text-align: center;
-  font-weight: normal;
-}
-
-a {
-  font-family: "Sporting Grotesque Bold";
-  /* font-weight: bold; */
-  color: black;
-  font-size: 62px;
-  line-height: 58px;
-  text-align: center;
-  font-style: normal;
-}
-
-a:hover{
-}
-
-a::after{
-}
-
-b {
-  font-weight: normal;
-  font-style: normal;
 }
 
 .instructions{
@@ -150,97 +107,12 @@ b {
   /* padding-top: 30vh; */
 }
 
-.entries2{
-  height: 100vh;
+.living {
   width: 100%;
-  font-family: "Compagnon Light";
-  font-style: normal;
-  color: black;
-  font-size: 14px;
-  line-height: 15px;
-  justify-content: center;
-  padding-top: 30vh;
-}
-
-.entries3{
   height: auto;
-  width: 100%;
-  font-family: "Compagnon Light Italic";
-  /* font-style: italic; */
-  /* font-style: oblique;
-  font-weight: bold; */
-  color: black;
-  font-size: 14px;
-  line-height: 15px;
-  justify-content: center;
-  padding-top: 30vh;
-  padding-bottom: 50vh;
-}
-
-.list {
-  text-align: center;
-}
- .list a{
-   text-decoration: none;
- }
-/* .list:active a{
-  text-decoration: none;
-}
-.list:hover a{
-  text-decoration: none;
-}
-.list::after a{
-  text-decoration: none;
-}
-.list:visited a{
-  text-decoration: none;
-} */
-
-.column1{
-  width: 33.3%;
-  height: 100vh;
   /* background: red; */
-  float:left;
+  /* float:left;
   padding-left: 1vw;
   padding-right: 1vw;
-  padding-top: 3vh;
-  /* font-family: "Syne Extra"; */
-  font-family: "Sporting Grotesque Bold";
-  /* font-weight: bold; */
-  color: black;
-  font-size: 62px;
-  line-height: 58px;
-  /* text-align: center; */
-}
-
-.column2{
-  height: 100vh;
-  width: 33.3%;
-  /* background: blue; */
-  float:left;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  padding-top: 3vh;
-  font-family: "Compagnon Light";
-  font-style: normal;
-  color: black;
-  font-size: 16px;
-  line-height: 17px;
-}
-
-.column3{
-  width: 33.3%;
-  height: 100vh;
-  /* background: yellow; */
-  float:left;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  padding-top: 3vh;
-  font-family: "Compagnon Light Italic";
-  /* font-style: italic; */
-  /* font-style: italic;
-  font-weight: bold; */
-  color: black;
-  font-size: 12px;
-  line-height: 14px;
+  padding-top: 3vh; */
 }
