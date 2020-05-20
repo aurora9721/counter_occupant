@@ -23,3 +23,13 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+var enter1 = document.getElementById("enter1");
+enter1.onclick = function() {
+  enter1.style.display = "none";
+}
+
+var enter2 = document.getElementById("enter2");
+enter2.onclick = function() {
+  enter2.style.display = "none";
+}
