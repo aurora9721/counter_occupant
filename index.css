@@ -134,7 +134,7 @@ body {
 
 
 .enter1 {
-  background-image: url("enter.png");
+  background-image: url("images/enter.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -144,7 +144,7 @@ body {
 }
 
 .enter2 {
-  background-image: url("enter_blur.png");
+  background-image: url("images/enter_blur.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -154,7 +154,7 @@ body {
 }
 
 .living1 {
-  background-image: url("living1.png");
+  background-image: url("images/living1.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
