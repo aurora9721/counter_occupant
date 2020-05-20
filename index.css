@@ -108,20 +108,7 @@ body {
 }
 
 .welcome {
-  height: auto;
-  width: 100%;
-  left: 20vw;
-  top: 20vh;
-  z-index: 1;
-  font-family: "IBM Plex Mono";
-  font-style: normal;
-  font-weight: normal;
-  color: red;
-  font-size: 18px;
-  line-height: 19px;
-  justify-content: left;
-  /* padding-bottom: 4vh;
-  padding-left: 1.5vw; */
+
 }
 
 .title {
@@ -129,16 +116,33 @@ body {
   width: 100%;
   left: 20vw;
   top: 20vh;
-  z-index: 1;
   font-family: "IBM Plex Mono";
   font-style: normal;
   font-weight: normal;
   color: red;
   font-size: 18px;
   line-height: 19px;
-  justify-content: left;
+  /* justify-content: left; */
   /* padding-bottom: 4vh;
   padding-left: 1.5vw; */
+}
+
+.enter1 {
+  background-image: url("enter.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.enter2 {
+  background-image: url("enter_blur.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
 }
 
 .living {
@@ -147,4 +151,5 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
 }
