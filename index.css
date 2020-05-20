@@ -142,8 +142,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -1;
-  display: none;
+  /* z-index: -1; */
+  /* display: none; */
 }
 
 .enter2 {
@@ -152,8 +152,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -1;
-  display: none;
+  /* z-index: -1; */
+  /* display: none; */
 }
 
 .living {
@@ -162,6 +162,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 1;
+  /* z-index: 1; */
   /* display: none; */
 }
