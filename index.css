@@ -130,14 +130,7 @@ body {
   padding-left: 1.5vw; */
 }
 
-.entrance {
-  /* background-image: url("living1.png"); */
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* z-index: -1; */
-}
+
 
 .enter1 {
   background-image: url("enter.png");
@@ -159,7 +152,7 @@ body {
   /* display: none; */
 }
 
-.living {
+.living1 {
   background-image: url("living1.png");
   height: 100%;
   background-position: center;
