@@ -110,8 +110,9 @@ body {
 .welcome {
   height: auto;
   width: 100%;
-  left: 10vw;
-  top: 10vh;
+  left: 20vw;
+  top: 20vh;
+  z-index: 1;
   font-family: "IBM Plex Mono";
   font-style: normal;
   font-weight: normal;
