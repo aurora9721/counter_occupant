@@ -108,7 +108,9 @@ body {
 }
 
 .welcome {
-
+  height: auto;
+  width: 100%;
+  z-index: 10;
 }
 
 .title {
@@ -122,6 +124,7 @@ body {
   color: red;
   font-size: 18px;
   line-height: 19px;
+
   /* justify-content: left; */
   /* padding-bottom: 4vh;
   padding-left: 1.5vw; */
