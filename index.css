@@ -65,7 +65,7 @@ head {
     padding-bottom: 2.1vh;
     padding-left: 1.4vw;
     padding-right: 1.4vw;
-    font-family: "Compagnon";
+    font-family: "IBM Plex Mono";
     font-size: 40px;
     font-style: normal;
   }
@@ -92,10 +92,10 @@ body {
 
 }
 
-.instructions{
+.instructions {
   height: auto;
   width: 100%;
-  font-family: "Compagnon Light";
+  font-family: "IBM Plex Mono";
   font-style: normal;
   font-weight: normal;
   color: black;
@@ -105,6 +105,20 @@ body {
   padding-bottom: 4vh;
   padding-left: 1.5vw;
   /* padding-top: 30vh; */
+}
+
+.welcome {
+  height: auto;
+  width: 100%;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: normal;
+  color: red;
+  font-size: 18px;
+  line-height: 19px;
+  justify-content: left;
+  /* padding-bottom: 4vh;
+  padding-left: 1.5vw; */
 }
 
 .living {
