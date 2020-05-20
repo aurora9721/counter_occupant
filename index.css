@@ -124,6 +124,7 @@ body {
   color: red;
   font-size: 18px;
   line-height: 19px;
+  z-index: 10;
 
   /* justify-content: left; */
   /* padding-bottom: 4vh;
