@@ -124,6 +124,23 @@ body {
   padding-left: 1.5vw; */
 }
 
+.title {
+  height: auto;
+  width: 100%;
+  left: 20vw;
+  top: 20vh;
+  z-index: 1;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: normal;
+  color: red;
+  font-size: 18px;
+  line-height: 19px;
+  justify-content: left;
+  /* padding-bottom: 4vh;
+  padding-left: 1.5vw; */
+}
+
 .living {
   background-image: url("living1.png");
   height: 100%;
