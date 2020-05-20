@@ -33,3 +33,8 @@ var enter2 = document.getElementById("enter2");
 enter2.onclick = function() {
   enter2.style.display = "none";
 }
+
+var living1 = document.getElementById("living1");
+living1.onclick = function() {
+  living1.style.display = "none";
+}
