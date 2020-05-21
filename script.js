@@ -42,6 +42,8 @@ btn.onclick = function() {
   modal.style.display = "block";
 }
 
+
+
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
@@ -66,17 +68,17 @@ living1.onclick = function() {
   living1.style.display = "none";
 }
 
-var living2 = document.getElementById("living2");
-living2.onclick = function() {
-  living2.style.display = "none";
-}
+// var living2 = document.getElementById("living2");
+// living2.onclick = function() {
+//   living2.style.display = "none";
+// }
 
 var bigbed1 = document.getElementById("bigbed1");
 bigbed1.onclick = function() {
   bigbed1.style.display = "none";
 }
 
-var bigbed2 = document.getElementById("bigbed2");
-bigbed2.onclick = function() {
-  bigbed2.style.display = "none";
-}
+// var bigbed2 = document.getElementById("bigbed2");
+// bigbed2.onclick = function() {
+//   bigbed2.style.display = "none";
+// }

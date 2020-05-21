@@ -25,6 +25,7 @@ em {
   top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
+  /* overflow: hidden; /* Enable scroll if needed */
   overflow: hidden; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
@@ -59,6 +60,63 @@ em {
   line-height: 20px;
 }
 
+a {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: normal;
+  color: crimson;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a::after{
+    text-decoration: none;
+}
+
+.rooms {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: normal;
+  color: crimson;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+#livingroom{
+  padding-left: 27vw;
+  padding-top: 38vh;
+  position: absolute;
+}
+#kitchen{
+  padding-left: 29vw;
+  padding-top: 21vh;
+  position: absolute;
+}
+#smallbed{
+  padding-left: 14vw;
+  padding-top: 36vh;
+  position: absolute;
+}
+
+#bigbed{
+  padding-left: 4vw;
+  padding-top: 33vh;
+  position: absolute;
+}
+#wc{
+  padding-left: 19vw;
+  padding-top: 16vh;
+  position: absolute;
+}
+#bathroom {
+  padding-left: 9vw;
+  padding-top: 17vh;
+  position: absolute;
+}
+
 .map {
   height: 100%;
 
@@ -91,7 +149,7 @@ em {
   border-radius: 50%;
   background-color: crimson;
   padding-top: 0.1vh;
-  padding-bottom: 2.1vh;
+  padding-bottom: 1.5vh;
   padding-left: 1.4vw;
   padding-right: 1.4vw;
   font-family: "IBM Plex Mono";
@@ -128,14 +186,14 @@ em {
     height: 60vh;
     width: 45vw; /* Could be more or less, depending on screen size */
     margin: 10% auto; /* 15% from the top and centered */
-    padding-top: 5vh;
+    padding-top: 3vh;
     padding-bottom: 3vh;
-    padding-left: 1vw;
+    padding-left: 2vw;
     padding-right: 2vw;
     /* padding: 20px; */
     border: none;
     /* border: 1px solid #888; */
-    overflow: scroll;
+    /* overflow: scroll; */
   }
 
   /* The Close Button */
@@ -165,7 +223,7 @@ em {
     border-radius: 50%;
     background-color: black;
     padding-top: 0.1vh;
-    padding-bottom: 2.1vh;
+    padding-bottom: 1.5vh;
     padding-left: 1.4vw;
     padding-right: 1.4vw;
     font-family: "IBM Plex Mono";
@@ -185,9 +243,9 @@ body {
     /* overflow-x: hidden; */
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display: none;
-}
+} */
 
 * {
     margin: 0;
@@ -205,9 +263,33 @@ body {
   font-size: 14px;
   line-height: 15px;
   justify-content: left;
-  padding-bottom: 4vh;
-  padding-left: 1.5vw;
+  /* padding-bottom: 4vh; */
+  /* padding-left: 1.5vw; */
   /* padding-top: 30vh; */
+}
+/* ----------------INSTRUCTIONS SCROLL--------------- */
+.scrolling-wrapper {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  word-wrap: break-word;
+  height: 45vh;
+  width: inherit;
+  /* border-bottom: 3px; */
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  top: 20px;
+  /* padding-right: 4vw; */
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: crimson;
+  border-radius: 10px;
 }
 
 .welcome {
@@ -238,6 +320,19 @@ body {
 }
 
 
+.titlepg {
+  width: 30%;
+  height: 30%;
+  left: 1vw;
+  top: 2vh;
+  position:  fixed;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: normal;
+  color: crimson;
+  font-size: 36px;
+  line-height: 35px;
+}
 
 .enter1 {
   background-image: url("images/enter.png");
@@ -275,7 +370,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -4;
+  z-index: -2;
   /* display: none; */
 }
 
@@ -285,7 +380,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -5;
+  z-index: -3;
   /* display: none; */
 }
 
@@ -295,6 +390,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -6;
+  z-index: -4;
   /* display: none; */
 }

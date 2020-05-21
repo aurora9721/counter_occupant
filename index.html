@@ -31,8 +31,26 @@
    <div class="map-content">
      <span class="close2">&times;</span>
      <p>Click on the room you want to explore</p><br>
+     <div class="rooms" id="livingroom">
+       <p>Living Room</p>
+     </div>
+     <div class="rooms" id="kitchen">
+       <a href="#living1"><p>Kitchen</p></a>
+     </div>
+     <div class="rooms" id="smallbed">
+       <p>Small Bedroom</p>
+     </div>
+     <div class="rooms" id="bigbed">
+       <a href="#bigbed1"><p>Big Bedroom</p></a>
+     </div>
+     <div class="rooms" id="wc">
+       <p>WC</p>
+     </div>
+     <div class="rooms" id="bathroom">
+       <p>Bathroom</p>
+     </div>
      <div class="map" id="map">
-   <p><img src="images/map1.png"
+   <p><img src="images/map.png"
    type="image/png" width="100%">
    </p>
      </div>
@@ -49,9 +67,10 @@
   <!-- Modal content -->
    <div class="modal-content">
      <span class="close">&times;</span>
-     <div class="instructions" id="instructions">
-   <p><em>WELCOME (BACK) HOME</em>
-   </p><br><p>The masses of tourists at your doorstep and at every turn made it difficult for you to navigate your own hometown to go on the most basic errands.
+     <p><em>WELCOME (BACK) HOME</em>
+     </p><br>
+     <div class="instructions" id="instructions"><div class="scrolling-wrapper">
+   <p>The masses of tourists at your doorstep and at every turn made it difficult for you to navigate your own hometown to go on the most basic errands.
      The discount supermarket down the street is now pricier inner city mini-market with a souvenier section.
    </p><br><p>Tourists shamelessly peer into the windows, unaware of the respectful etiquette that substitutes curtains around these parts.
      Most of your neighbours have their blinds down all day lately. No one sits on their front steps to be gawked at like a zoo animal, or even photographed.
@@ -74,7 +93,7 @@
      You’re part of the community again.
      The city continues to change, from the inside in.
    </p>
-     </div>
+ </div></div>
    </div>
 </div>
 
@@ -83,7 +102,7 @@
 </div> -->
 
 <div class="enter1" id="enter1">
-
+ <span class="titlepg"><p>COUNTER</p><p>OCCUPANT</p></span>
 </div>
 
 <div class="living1" id="living1">
@@ -101,9 +120,6 @@
 <div class="bigbed2" id="bigbed2">
 
 </div>
-
-
-
 
 
 <script src="script.js"></script>
