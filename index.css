@@ -2,7 +2,7 @@
 html,
 head {
 
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
     height: 100%;
 }
 
@@ -61,19 +61,16 @@ em {
 }
 
 a {
-  font-family: "IBM Plex Mono";
-  font-style: normal;
-  font-weight: normal;
-  color: crimson;
-  font-size: 14px;
-  line-height: 16px;
   text-decoration: none;
+  color: crimson;
 }
 a:hover{
     text-decoration: none;
+    color: crimson;
 }
 a::after{
     text-decoration: none;
+    color: crimson;
 }
 
 .rooms {
