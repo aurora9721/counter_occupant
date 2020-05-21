@@ -146,11 +146,11 @@ a::after{
   border-radius: 50%;
   background-color: crimson;
   padding-top: 0vh;
-  padding-bottom: 0.6vh;
+  padding-bottom: 0.4vh;
   padding-left: 1vw;
   padding-right: 1vw;
   font-family: "IBM Plex Mono";
-  font-size: 50px;
+  font-size: 47px;
   font-style: normal;
 }
 
