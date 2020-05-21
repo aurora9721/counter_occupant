@@ -58,10 +58,10 @@ window.onclick = function(event) {
 
 // ---------------THIS IS THE IMAGES DISPLAY NONE-------------------
 
-var enter1 = document.getElementById("enter1");
-enter1.onclick = function() {
-  enter1.style.display = "none";
-}
+// var enter1 = document.getElementById("enter1");
+// enter1.onclick = function() {
+//   enter1.style.display = "none";
+// }
 
 var living1 = document.getElementById("living1");
 living1.onclick = function() {
