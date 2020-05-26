@@ -78,6 +78,11 @@ bigbed1.onclick = function() {
   bigbed1.style.display = "none";
 }
 
+var bigbed_navleft = document.getElementById("bigbed_navleft");
+bigbed_navleft.onclick = function() {
+  bigbed_left.style.display = "inline";
+}
+
 // var bigbed2 = document.getElementById("bigbed2");
 // bigbed2.onclick = function() {
 //   bigbed2.style.display = "none";
