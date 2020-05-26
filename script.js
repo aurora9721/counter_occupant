@@ -78,7 +78,7 @@ bigbed1.onclick = function() {
   bigbed1.style.display = "none";
 }
 
-var bigbed_navleft = document.getElementById("bigbed_navleft");
+var bigbed_left = document.getElementById("bigbed_left");
 bigbed_navleft.onclick = function() {
   bigbed_left.style.display = "inline";
 }
