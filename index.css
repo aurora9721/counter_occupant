@@ -13,7 +13,33 @@ em {
   color: crimson;
 
 }
+.nav {
+  width: 95%;
+  height: 95%;
+  /* left: 20vw;
+  top: 20vh; */
+  position:  fixed;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+  font-size: 60px;
+}
 
+#left {
+  left: 2vw;
+  top: 45vh;
+}
+
+#right {
+  left: 95vw;
+  top: 45vh;
+}
+
+#forward {
+  left:50vw;
+  top: 85vh;
+}
 /*------------ THIS IS THE MAP/POP-UP---------------*/
 
 /* The Modal (background) */
